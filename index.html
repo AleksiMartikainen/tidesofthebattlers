@@ -3,14 +3,16 @@
 
 <head>
     <script src="card.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <button onclick="start()">Start</button>
-    <button onclick="showCard(cards[2], 'Player 1 used Sword')">Use Sword</button>
-    <button onclick="showCard(cards[1], 'Player 2 card:')">Player 2</button>
-    <p>Paska peli 5000</p>
+    <button onclick="hideAll(); start(); showId('sword'); showId('player2');" id="start">Start</button>
+    <button onclick="showCard(cards[2], 'Player1usedSword'); hideId('sword'); hideId('textPlayer1'); hideId('Player1card');" id="sword">Use Sword</button>
+    <button onclick="showCard(cards[1], 'Player2card'); hideId('player2');" id="player2">Player 2</button>
+
+    <p>Cards:</p>
 
 
 
