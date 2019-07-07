@@ -120,8 +120,3 @@ function checkSkull(paska) {
         audio.play();
     }
 }
-
-function click() {
-    var audio = new Audio('./resources/click.mp3');
-    audio.play();
-}

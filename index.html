@@ -8,9 +8,9 @@
 
 <body>
 
-    <button onclick="click(); hideAll(); start(); showId('sword'); showId('player2'); hideId('start');" id="start">Start</button>
-    <button onclick="click(); showCard(cards[2], 'Player1usedSword', 'playerone'); hideId('sword'); hideId('textPlayer1'); hideId('Player1card');" id="sword">Use Sword</button>
-    <button onclick="click(); showCard(cards[1], 'Player2card', 'playertwo'); hideId('player2'); hideId('sword'); showId('start')" id="player2">Player 2</button>
+    <button onclick="hideAll(); start(); showId('sword'); showId('player2'); hideId('start');" id="start">Start</button>
+    <button onclick="showCard(cards[2], 'Player1usedSword', 'playerone'); hideId('sword'); hideId('textPlayer1'); hideId('Player1card');" id="sword">Use Sword</button>
+    <button onclick="showCard(cards[1], 'Player2card', 'playertwo'); hideId('player2'); hideId('sword'); showId('start')" id="player2">Player 2</button>
 
     <div class="row">
         <div id="playerone" class="column"></div>
