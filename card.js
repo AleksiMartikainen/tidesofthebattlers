@@ -16,7 +16,7 @@ function start() {
 
     cards.push(deck[0], deck[1], deck[2]);
 
-    showCard(cards[0], "Player1card");
+    showCard(cards[0], "Player1card", 'playerone');
 }
 
 function shuffle(array) {
@@ -39,27 +39,27 @@ function shuffle(array) {
 }
 
 
-function showCard(card, text) {
+function showCard(card, text, id) {
 
     if (text == 'Player1card') {
         var paska = document.createElement("LABEL");
         paska.append('Player 1 card');
         paska.id = 'textPlayer1';
-        document.body.appendChild(paska);
+        document.getElementById(id).appendChild(paska);
     }
 
     if (text == 'Player1usedSword') {
         var paska = document.createElement("LABEL");
         paska.append('Player 1 used Sword');
         paska.id = 'textSword1';
-        document.body.appendChild(paska);
+        document.getElementById(id).appendChild(paska);
     }
 
     if (text == 'Player2card') {
         var paska = document.createElement("LABEL");
         paska.append('Player 2 card');
         paska.id = 'textPlayer2';
-        document.body.appendChild(paska);
+        document.getElementById(id).appendChild(paska);
     }
 
 
@@ -68,33 +68,33 @@ function showCard(card, text) {
 
     if (card == "zs1" || card == "zs2") {
         myImage.src = './resources/zero_skull.jpg';
-        document.body.appendChild(myImage);
+        document.getElementById(id).appendChild(myImage);
     } 
 
     if (card == "z1" || card == "z2" || card == "z3" || card == "z4" || card == "z5"
         || card == "z6" || card == "z7" || card == "z8") {
         myImage.src = './resources/zero.jpg';
-        document.body.appendChild(myImage);
+        document.getElementById(id).appendChild(myImage);
     } 
 
     if (card == "1s1" || card == "1s2" || card == "1s3" || card == "1s4") {
         myImage.src = './resources/one_sword.jpg';
-        document.body.appendChild(myImage);
+        document.getElementById(id).appendChild(myImage);
     } 
 
     if (card == "1t1" || card == "1t2" || card == "1t3" || card == "1t4") {
         myImage.src = './resources/one_tower.jpg';
-        document.body.appendChild(myImage);
+        document.getElementById(id).appendChild(myImage);
     } 
 
     if (card == "2.1" || card == "2.2" || card == "2.3" || card == "2.4") {
         myImage.src = './resources/two.jpg';
-        document.body.appendChild(myImage);
+        document.getElementById(id).appendChild(myImage);
     } 
 
     if (card == "3.1" || card == "3.2") {
         myImage.src = './resources/three.jpg';
-        document.body.appendChild(myImage);
+        document.getElementById(id).appendChild(myImage);
     }
 }
 
