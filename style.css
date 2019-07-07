@@ -4,6 +4,8 @@ body{
 
 #start, #sword, #player2{
     width: 45%;
+    height: 80px;
+    font-size: 35px;
 }
 
 #Player1usedSword, #Player1card, #Player2card{
@@ -37,3 +39,4 @@ label{
     text-align: center;
     font-size: 30px;
 }
+
