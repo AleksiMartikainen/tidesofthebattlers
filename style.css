@@ -3,7 +3,7 @@ body{
 }
 
 #start, #sword, #player2{
-    width: 45%;
+    width: 47%;
     height: 80px;
     font-size: 35px;
 }
@@ -12,15 +12,25 @@ body{
     width: 100%;
 }
 
-#playerone, #playertwo{
-    width: 100%;
+#playerone, #playertwo, #playerthree {
+    width: 48%;
     margin: 1%, 1%, 1%, 1% !important;
 }
+
+
 
 #sword, #player2{
     display: none;
 }
 
+.row {
+    display: table;
+    border-spacing: 10px;
+}
+
+.column{
+    display: table-cell;
+}
 
 #textPlayer1, #textSword1, #textPlayer2{
     width: 100%;
