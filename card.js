@@ -84,6 +84,8 @@ function showCard(card, text, id) {
     }
 
     document.getElementById(id).appendChild(myImage);
+
+    checkSkull(card);
 }
 
 function hideId(id) {
@@ -109,4 +111,12 @@ function hideAll() {
     removeElement('textPlayer1');
     removeElement('textSword1');
     removeElement('textPlayer2');   
+}
+
+function checkSkull(paska) {
+    var audio = new Audio('./resources/mlg.mp3');
+
+    if (paska == 'zs1' || paska == 'zs2') {
+        audio.play();
+    }
 }
