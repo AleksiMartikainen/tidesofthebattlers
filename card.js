@@ -1,9 +1,11 @@
 ﻿
 
 var cards = [];
+var turns = 0;
 
 function start() {
 
+    turns++;
     cards = [];
 
     var deck = ["z1", "z2", "z3", "z4", "z5", "z6", "z7", "z8", "zs1",
@@ -55,7 +57,7 @@ function showCard(card, text, id) {
 
     document.getElementById(id).appendChild(paska);
 
-    var myImage = new Image(200, 400);
+    var myImage = new Image(200, 600);
     myImage.id = text;
 
     if (card == "zs1" || card == "zs2") {

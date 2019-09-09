@@ -4,8 +4,12 @@ body{
 
 #start, #sword, #player2{
     width: 47%;
-    height: 70px;
+    height: 100px;
     font-size: 35px;
+}
+
+#start {
+    background-color: steelblue;
 }
 
 #Player1usedSword, #Player1card, #Player2card{
@@ -13,7 +17,8 @@ body{
 }
 
 #playerone, #playertwo, #playerthree {
-    width: 48%;
+    display: block;
+    width: 98%;
     margin: 1%, 1%, 1%, 1% !important;
 }
 
