@@ -4,12 +4,13 @@ body{
 
 #start, #sword, #player2{
     width: 47%;
-    height: 100px;
-    font-size: 35px;
+    height: 130px;
+    font-size: 45px;
 }
 
 #start {
-    background-color: steelblue;
+    background-color: lightblue;
+    width: 98%;
 }
 
 #Player1usedSword, #Player1card, #Player2card{
