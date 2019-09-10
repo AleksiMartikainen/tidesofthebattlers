@@ -46,7 +46,7 @@ body{
     display: table-cell;
 }
 
-#textPlayer1, #textSword1, #textPlayer2 {
+#textPlayer1, #textSword1, #textPlayer2, #statsInfo {
     display: block;
     text-align: center;
     font-size: 30px !important;
