@@ -40,6 +40,7 @@ body{
 .row {
     display: table;
     border-spacing: 10px;
+    margin: auto;
 }
 
 .column{
@@ -51,6 +52,12 @@ body{
     text-align: center;
     font-size: 30px !important;
     background-color: lightgray;
+}
+
+#statsInfo{
+    margin: auto;
+    margin-top: 10px;
+    width: 98%;
 }
 
 #stats, #stats2{

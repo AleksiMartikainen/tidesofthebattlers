@@ -110,6 +110,10 @@ function showId(id) {
     document.getElementById(id).style.display = 'inline-block';
 }
 
+function showIdBlock(id) {
+    document.getElementById(id).style.display = 'block';
+}
+
 function disableId(id) {
     document.getElementById(id).disabled = true;
 }
