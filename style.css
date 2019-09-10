@@ -6,11 +6,21 @@ body{
     width: 47%;
     height: 130px;
     font-size: 45px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 #start {
     background-color: lightblue;
     width: 98%;
+}
+
+#sword{
+    background-color: lightgray;
+}
+
+#player2{
+    background-color: lightblue;
 }
 
 #Player1usedSword, #Player1card, #Player2card{
@@ -20,10 +30,8 @@ body{
 #playerone, #playertwo, #playerthree {
     display: block;
     width: 98%;
-    margin: 1%, 1%, 1%, 1% !important;
+    margin: auto !important;
 }
-
-
 
 #sword, #player2{
     display: none;
@@ -38,9 +46,10 @@ body{
     display: table-cell;
 }
 
-#textPlayer1, #textSword1, #textPlayer2{
-    width: 100%;
+#textPlayer1, #textSword1, #textPlayer2 {
+    display: block;
     text-align: center;
-    font-size: 30px;
+    font-size: 30px !important;
+    background-color: lightgray;
 }
 
