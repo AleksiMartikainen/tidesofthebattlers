@@ -2,7 +2,7 @@ body{
 
 }
 
-#start, #sword, #player2{
+#start, #sword, #player2, #stats1, #stats2{
     width: 47%;
     height: 130px;
     font-size: 45px;
@@ -10,7 +10,7 @@ body{
     margin-right: 1%;
 }
 
-#start {
+#start, #stats1, #stats2 {
     background-color: lightblue;
     width: 98%;
 }
@@ -53,3 +53,6 @@ body{
     background-color: lightgray;
 }
 
+#stats, #stats2{
+    display: none;
+}

@@ -8,8 +8,8 @@
 
 <body>
     <div id="holder">
-        <button onclick="hideAll(); start(); showId('sword'); showId('player2'); hideId('start');" id="start">Start</button>
-        <button onclick="showCard(cards[2], 'Player1usedSword', 'playerone'); hideId('sword'); hideId('textPlayer1'); hideId('Player1card');" id="sword">Use Sword</button>
+        <button onclick="hideAll(); start(); enableId('sword'); showId('sword'); showId('player2'); hideId('start');" id="start">Start</button>
+        <button onclick="showCard(cards[2], 'Player1usedSword', 'playerone'); disableId('sword'); hideId('textPlayer1'); hideId('Player1card');" id="sword">Use Sword</button>
         <button onclick="showCard(cards[1], 'Player2card', 'playertwo'); hideId('player2'); hideId('sword'); showId('start')" id="player2">Player 2</button>
     </div>
 
@@ -18,8 +18,10 @@
         <div id="playertwo" class="column"></div>
     </div>
 
+    <button onclick="showId('stats'); hideId('stats1'); showId('stats2'); showStats()" id="stats1">View Stats</button>
+    <button onclick="hideId('stats'); showId('stats1'); hideId('stats2'); showStats()" id="stats2">Hide Stats</button>
 
-
+    <div id="stats"></div>
 
 
 
