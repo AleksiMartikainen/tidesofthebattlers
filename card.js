@@ -57,7 +57,7 @@ function showCard(card, text, id) {
 
     document.getElementById(id).appendChild(paska);
 
-    var myImage = new Image(200, 600);
+    var myImage = new Image(200, 900);
     myImage.id = text;
 
     if (card == "zs1" || card == "zs2") {
